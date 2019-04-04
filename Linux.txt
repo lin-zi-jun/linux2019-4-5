@@ -1,0 +1,53 @@
+
+----查看修改当前命令行环境变量
+Linux-->export
+windows-->set
+
+查看单个环境变量
+Linux-->echo $+环境变量名
+windows-->set %环境变量名%
+
+添加环境变量名
+Linux-> export AA=环境变量
+windows--> set aa=环境变量
+
+环境变量追加
+Linux--> export AA=$AA:+环境变量
+windows-->set aa=%aa%环境变量
+
+环境变量删除
+Linux --> unset AA
+windows--> set aa=
+
+----回到上一次路径
+cd -
+
+
+----查看进程
+ps ->aux 查看所有进程
+
+----杀死进程
+pkill + 进程名
+kill  + pid
+
+----查看用户信息
+cat /etc/passwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
